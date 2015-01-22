@@ -1,0 +1,9 @@
+/* Empty. Add your own CSS if you like */
+.angular-leaflet-map {
+   width: 100%;
+   height: 640px;
+}
+
+.item-checkbox.item-checkbox-right.item-icon-left { 
+  padding-left:60px;
+}
