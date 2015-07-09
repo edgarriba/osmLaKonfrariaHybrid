@@ -41,7 +41,9 @@ angular.module('controllers', [])
 
 .controller('MapCtrl', [ '$scope', function($scope) {
     $scope.map = {
-    	tiles: {},
+    	tiles: {
+        url: 'http://{s}.tile.osm.org/{z}/{x}/{y}.png',
+      },
 		center: {
 	        lat: 41.413219,
 	        lng: 1.9686877,
